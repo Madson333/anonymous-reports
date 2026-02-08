@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import { styles } from './styles';
-import { useReports } from '@/hooks/queries/useReports';
+import { useGetReports } from '@/hooks/queries/useGetReports';
 
 export default function FeedView() {
-  const { data, isLoading, isError } = useReports();
+  const { data, isLoading, isError } = useGetReports();
 
   if (isLoading) {
     return (
