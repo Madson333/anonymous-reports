@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import api from '../services/api';
+import api from '@/services/api';
 
 export function useApi() {
   const get = useCallback(async (path: string, config?: any) => {

@@ -1,10 +1,10 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import FeedView from '../screens/Feed';
-import ReportDetailsView from '../screens/ReportDetails';
-import CameraView from '../screens/Camera';
-import ConfirmReportView from '../screens/ConfirmReport';
+import FeedView from '@/screens/Feed';
+import ReportDetailsView from '@/screens/ReportDetails';
+import CameraView from '@/screens/Camera';
+import ConfirmReportView from '@/screens/ConfirmReport';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
